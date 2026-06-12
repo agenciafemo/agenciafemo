@@ -52,32 +52,43 @@
 
       @keyframes glow {
         0%, 100% {
-          filter: drop-shadow(0 0 5px rgba(59, 130, 246, 0.5));
+          filter: drop-shadow(0 0 5px rgba(239, 90, 43, 0.5));
         }
         50% {
-          filter: drop-shadow(0 0 15px rgba(59, 130, 246, 0.8));
+          filter: drop-shadow(0 0 15px rgba(239, 90, 43, 0.8));
+        }
+      }
+
+      @keyframes float {
+        0%, 100% {
+          transform: translateY(0px);
+        }
+        50% {
+          transform: translateY(-10px);
         }
       }
 
       .title {
         font-family: 'Arial', sans-serif;
-        font-size: 64px;
-        font-weight: bold;
-        fill: #1e293b;
-        animation: slideInLeft 1s ease-out forwards;
+        font-size: 72px;
+        font-weight: 900;
+        fill: #000000;
+        animation: slideInLeft 0.8s ease-out forwards;
+        letter-spacing: 3px;
       }
 
       .subtitle {
         font-family: 'Arial', sans-serif;
-        font-size: 24px;
-        fill: #475569;
-        animation: slideInLeft 1s ease-out 0.2s forwards;
+        font-size: 20px;
+        fill: #b4b4b4;
+        animation: slideInLeft 0.8s ease-out 0.2s forwards;
         opacity: 0;
+        font-weight: 500;
       }
 
       .line {
-        stroke: #3b82f6;
-        stroke-width: 3;
+        stroke: #ef5a2b;
+        stroke-width: 4;
         fill: none;
         stroke-linecap: round;
         stroke-dasharray: 200;
@@ -90,67 +101,84 @@
 
       .line2 {
         animation-delay: 0.6s;
+        stroke: #ffa182;
       }
 
       .circle {
-        fill: #3b82f6;
         animation: pulse 2s ease-in-out infinite;
       }
 
       .circle1 {
+        fill: #ef5a2b;
         animation-delay: 0s;
       }
 
       .circle2 {
+        fill: #ffa182;
         animation-delay: 0.3s;
       }
 
       .circle3 {
+        fill: #ef5a2b;
         animation-delay: 0.6s;
       }
 
       .gear {
-        animation: rotate 8s linear infinite;
+        animation: rotate 10s linear infinite;
         transform-origin: 1100px 80px;
       }
 
       .icon {
-        animation: glow 2s ease-in-out infinite;
+        animation: glow 2.5s ease-in-out infinite;
+      }
+
+      .accent-box {
+        animation: float 3s ease-in-out infinite;
       }
     </style>
   </defs>
 
-  <!-- Background gradient -->
-  <rect width="1200" height="300" fill="#f8fafc"/>
+  <!-- Background com gradiente sutil -->
+  <rect width="1200" height="300" fill="#ffffff"/>
+  <rect width="1200" height="300" fill="url(#bgGradient)" opacity="0.02"/>
 
-  <!-- Decorative circles with pulse -->
-  <circle cx="100" cy="80" r="20" class="circle circle1" fill="#3b82f6" opacity="0.3"/>
-  <circle cx="150" cy="120" r="15" class="circle circle2" fill="#06b6d4" opacity="0.3"/>
-  <circle cx="80" cy="180" r="18" class="circle circle3" fill="#8b5cf6" opacity="0.3"/>
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ef5a2b;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:0.05" />
+    </linearGradient>
+  </defs>
+
+  <!-- Decorative circles com pulse -->
+  <circle cx="80" cy="70" r="22" class="circle circle1" opacity="0.3"/>
+  <circle cx="140" cy="110" r="16" class="circle circle2" opacity="0.4"/>
+  <circle cx="60" cy="180" r="20" class="circle circle3" opacity="0.25"/>
 
   <!-- Animated lines -->
-  <path d="M 100 60 Q 200 100, 300 50" class="line line1" stroke="#3b82f6"/>
-  <path d="M 100 120 L 320 120" class="line line2" stroke="#06b6d4"/>
+  <path d="M 100 50 Q 200 90, 320 40" class="line line1"/>
+  <path d="M 100 120 L 340 120" class="line line2"/>
 
   <!-- Main title -->
   <text x="100" y="100" class="title">FEMO</text>
 
   <!-- Subtitle -->
-  <text x="100" y="180" class="subtitle">Gestão de Agência | Crescimento Estratégico</text>
+  <text x="100" y="185" class="subtitle">Gestão de Agência • Crescimento Estratégico</text>
 
-  <!-- Right side decorative elements -->
+  <!-- Right side: Animated circles with glow -->
   <g class="icon">
-    <circle cx="1100" cy="80" r="35" fill="none" stroke="#3b82f6" stroke-width="2" opacity="0.3"/>
-    <circle cx="1100" cy="80" r="25" fill="none" stroke="#06b6d4" stroke-width="2" opacity="0.5"/>
-    <circle cx="1100" cy="80" r="15" fill="#3b82f6" opacity="0.7"/>
+    <circle cx="1100" cy="80" r="40" fill="none" stroke="#ef5a2b" stroke-width="2" opacity="0.2"/>
+    <circle cx="1100" cy="80" r="28" fill="none" stroke="#ffa182" stroke-width="2" opacity="0.4"/>
+    <circle cx="1100" cy="80" r="16" fill="#ef5a2b" opacity="0.85"/>
   </g>
 
-  <!-- Animated gear -->
-  <g class="gear">
-    <circle cx="1100" cy="220" r="8" fill="#3b82f6"/>
-    <path d="M 1100 212 L 1104 210 L 1108 212 L 1107 216 L 1109 220 L 1107 224 L 1108 228 L 1104 230 L 1100 228 L 1096 230 L 1092 228 L 1091 224 L 1093 220 L 1091 216 L 1092 212 Z" fill="none" stroke="#3b82f6" stroke-width="1.5"/>
+  <!-- Accent box floating -->
+  <g class="accent-box">
+    <rect x="1050" y="180" width="100" height="80" fill="none" stroke="#ef5a2b" stroke-width="2" rx="8" opacity="0.6"/>
+    <text x="1065" y="215" font-family="Arial" font-size="12" fill="#ef5a2b" font-weight="bold">AGÊNCIA</text>
+    <text x="1055" y="235" font-family="Arial" font-size="10" fill="#b4b4b4">Digital</text>
   </g>
 
-  <!-- Bottom accent line -->
-  <line x1="100" y1="260" x2="400" y2="260" stroke="#3b82f6" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <!-- Bottom accent line - dual color -->
+  <line x1="100" y1="260" x2="300" y2="260" stroke="#ef5a2b" stroke-width="4" stroke-linecap="round" opacity="0.9"/>
+  <line x1="305" y1="260" x2="450" y2="260" stroke="#ffa182" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
 </svg>

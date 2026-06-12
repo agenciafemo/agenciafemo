@@ -1,80 +1,140 @@
 ![FEMO Banner](https://raw.githubusercontent.com/agenciafemo/agenciafemo/main/assets/banner.svg)
 
-# 👋 Bem-vindo à FEMO
+<div align="center">
 
-**Gestão de Agência | Planejamento Estratégico | Crescimento Digital**
+# 👋 Bem-vindo à **FEMO**
 
-Somos uma agência focada em ajudar profissionais e empresas a alcançarem crescimento estratégico através de soluções digitais inovadoras.
-
----
-
-## 🎯 O que fazemos
-
-- 📊 **Gestão de Agência** - Sistemas inteligentes para controlar sua operação
-- 🚀 **Planejamento Estratégico** - Ferramentas para crescimento organizado
-- 💼 **Soluções para Profissionais** - Formulários, gestão e automações
-- 🌐 **Desenvolvimento Web** - Aplicações modernas e responsivas
+## Gestão de Agência • Planejamento Estratégico • Crescimento Digital
 
 ---
 
-## 🛠️ Tech Stack
+**Transformando ideias em resultados através de soluções digitais estratégicas**
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34C26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+</div>
 
 ---
 
-## 📂 Principais Projetos
+## 🎯 Sobre a FEMO
 
-### 🎯 [FEMO-PLANNING](https://github.com/agenciafemo/FEMO-PLANNING)
-Sistema completo de gestão de agência com dashboard, planejamento e automações.
-- **Stack:** TypeScript, React, Node.js
-- **Status:** Em desenvolvimento ativo
+Somos uma agência especializada em **gestão de operações e crescimento estratégico**. Desenvolvemos plataformas inteligentes que ajudam profissionais e empresas a:
 
-### 🏥 [DocN-stico-Form](https://github.com/agenciafemo/DocN-stico-Form)
-Plataforma para médicos que buscam crescimento estratégico e gestão de consultório.
-- **Stack:** HTML, CSS, JavaScript
-- **Foco:** Formulários inteligentes para coleta de dados
+✅ **Organizar** operações com eficiência  
+✅ **Planejar** estratégia com dados  
+✅ **Crescer** de forma sustentável  
+✅ **Automatizar** processos críticos  
 
-### 🔗 [FRCA](https://github.com/agenciafemo/frca)
-Projeto de referência e documentação.
-- **Stack:** HTML, CSS
+---
+
+## 💼 Serviços & Soluções
+
+| Serviço | Descrição |
+|---------|-----------|
+| 🏢 **Gestão de Agência** | Sistemas para controlar e otimizar sua operação |
+| 📊 **Planejamento Estratégico** | Ferramentas para análise e crescimento organizado |
+| 💪 **Crescimento Digital** | Soluções para profissionais que querem escalar |
+| 🔧 **Automações** | Processos inteligentes que economizam tempo |
+| 📱 **Aplicações Web** | Plataformas modernas, responsivas e escaláveis |
+
+---
+
+## 🚀 Stack Tecnológico
+
+<div align="center">
+
+![TypeScript](https://img.shields.io/badge/TypeScript-000000?style=flat-square&logo=typescript&logoColor=ef5a2b)
+![React](https://img.shields.io/badge/React-000000?style=flat-square&logo=react&logoColor=ffa182)
+![Node.js](https://img.shields.io/badge/Node.js-000000?style=flat-square&logo=node.js&logoColor=ef5a2b)
+![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=flat-square&logo=javascript&logoColor=ffa182)
+![HTML5](https://img.shields.io/badge/HTML5-000000?style=flat-square&logo=html5&logoColor=ef5a2b)
+![CSS3](https://img.shields.io/badge/CSS3-000000?style=flat-square&logo=css3&logoColor=ffa182)
+
+</div>
+
+---
+
+## 📂 Projetos em Destaque
+
+### 🎯 **[FEMO-PLANNING](https://github.com/agenciafemo/FEMO-PLANNING)**
+Sistema completo de gestão de agência com dashboard intuitivo, planejamento integrado e automações.
+
+**Funcionalidades:**
+- 📊 Dashboard executivo
+- 📅 Planejamento de projetos
+- 👥 Gestão de equipe
+- 💰 Controle financeiro
+- ⚙️ Automações inteligentes
+
+**Stack:** TypeScript, React, Node.js  
+**Status:** 🔄 Em desenvolvimento ativo
+
+---
+
+### 🏥 **[DocN-stico-Form](https://github.com/agenciafemo/DocN-stico-Form)**
+Plataforma inovadora para médicos e profissionais de saúde que buscam crescimento estratégico e melhor gestão de consultório.
+
+**Funcionalidades:**
+- 📋 Formulários inteligentes
+- 📊 Coleta de dados estruturada
+- 🎯 Análise de crescimento
+- 🔗 Integrações automáticas
+
+**Stack:** HTML, CSS, JavaScript  
+**Foco:** Profissionais de saúde
+
+---
+
+### 🔗 **[FRCA](https://github.com/agenciafemo/frca)**
+Documentação e referência de padrões para projetos FEMO.
+
+**Stack:** HTML, CSS
 
 ---
 
 ## 📊 Estatísticas
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=agenciafemo&show_icons=true&theme=dark&bg_color=1a1a2e&title_color=3b82f6&icon_color=3b82f6)
+<div align="center">
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=agenciafemo&layout=compact&theme=dark&bg_color=1a1a2e&title_color=3b82f6)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=agenciafemo&show_icons=true&theme=dark&bg_color=000000&title_color=ef5a2b&icon_color=ffa182&text_color=b4b4b4&border_color=dfdfdf)
 
----
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=agenciafemo&layout=compact&theme=dark&bg_color=000000&title_color=ef5a2b&text_color=ffa182&border_color=dfdfdf)
 
-## 💡 Como Colaborar
-
-Encontrou um bug? Tem uma sugestão? Quer contribuir?
-
-- 🐛 Abra uma [Issue](https://github.com/agenciafemo)
-- 🔄 Envie um [Pull Request](https://github.com/agenciafemo)
-- 💬 Entre em contato
+</div>
 
 ---
 
-## 📞 Entre em Contato
+## 🤝 Como Colaborar
 
-- 📧 Email: [agenciafemo@gmail.com](mailto:agenciafemo@gmail.com)
-- 🌐 Website: *Em breve*
-- 💼 LinkedIn: *Adicione seu link*
+Encontrou um bug? Tem uma sugestão? Quer contribuir com a FEMO?
+
+- 🐛 **Bug Report:** [Abra uma Issue](https://github.com/agenciafemo)
+- 💡 **Sugestão:** [Discussões](https://github.com/agenciafemo)
+- 🔄 **Contribuição:** [Pull Request](https://github.com/agenciafemo)
+
+**Guidelines:**
+1. Faça fork do repositório
+2. Crie uma branch para sua feature (`git checkout -b feature/amazing-feature`)
+3. Commit suas mudanças (`git commit -m 'Add amazing feature'`)
+4. Push para a branch (`git push origin feature/amazing-feature`)
+5. Abra um Pull Request
 
 ---
+
+## 📞 Contato & Redes
 
 <div align="center">
 
-### ⭐ Se você gostou dos nossos projetos, não esqueça de deixar uma estrela!
+📧 **Email:** [agenciafemo@gmail.com](mailto:agenciafemo@gmail.com)
+
+💼 **LinkedIn:** *Em breve*
+
+🌐 **Website:** *Em desenvolvimento*
+
+---
+
+### ⭐ Se você gostou dos nossos projetos, deixe uma estrela!
 
 **Desenvolvido com ❤️ pela FEMO**
+
+*Transformando a gestão de agência, um projeto por vez.*
 
 </div>
